@@ -1,0 +1,223 @@
+.content 
+    {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+body
+    {
+        background-color:#E1EDEB; 
+    }
+
+h1
+    {
+        font-family: fantasy;
+        color: #0000FF;
+        font-size: 2em;
+        margin: 0;
+        /*text-align: center;*/
+    }
+
+h3
+     {
+        font-family: sans-serif;
+        color: #0000FF;
+         text-align: left;
+     }
+
+h4
+     {
+        font-family: sans-serif;
+        color: #0000FF;
+     }
+
+p
+     {
+         color: #0000FF;
+         font-family: sans-serif;
+         font-size:14px;
+     }
+
+footer
+    {
+     color: #0000FF; 
+     font-style: italic;
+     font-size:12px;
+    }
+
+header
+    {
+     color: #0000FF; 
+     font-style: italic;
+     font-size:12px;
+    }
+
+article 
+    {
+        color: #0000FF;
+    }
+
+#ulist1 
+    {
+        margin: 20px;
+        text-align: left;
+        color: #0000FF;
+    }
+
+#ulist2 
+    {
+        margin: 20px;
+        text-align: left;
+        color: #0000FF;
+    }
+
+#ulist3 
+    {
+        margin: 20px;
+        text-align: left;
+        color: #0000FF;
+    }
+
+img
+    {
+      height: 250px;
+      width: 250px;
+    }
+
+.left
+    {
+
+        width:250px;
+        display: inline-block; 
+        font-family: Garamond, serif;
+        font-size: 16px;
+        color: grey; 
+        text-align: left;
+    }
+
+.right
+    { 
+        width:650px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.resume
+    {
+
+        width:100px;
+        display: inline-block; 
+        font-family: Garamond, serif;
+        font-size: 16px;
+        color: grey; 
+        text-align: left;  
+        text-transform: uppercase;
+        margin-right: 10px;
+        text-decoration-line: underline;
+        text-decoration-color:darkgrey;
+        text-decoration-style: solid;
+
+    }
+
+.pic img
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+.contact
+    { 
+        width:100px;
+        display: inline-block;
+        vertical-align: top;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+        text-decoration-color:darkgrey;
+        text-decoration-style: solid;
+
+    }
+
+a { color:white; }
+
+.header1 h1
+    {
+     text-align: left;   
+    }
+
+
+.polling_message 
+    {
+      color: white;
+      float: left;
+      margin-right: 2%;  
+
+    }
+
+.view_port 
+    {
+      background-color: blue;
+      height: 25px;
+      width: 100%;
+      overflow: hidden;
+
+    }
+
+.cylon_eye 
+    {
+      background-color: blue;
+      background-image: -webkit-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+      background-image:    -moz-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+      background-image:      -o-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+      background-image:         linear-gradient(to right, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+      color: white;
+      height: 100%;
+      width: 20%;
+
+      -webkit-animation: move_eye 4s linear 0s infinite alternate;
+         -moz-animation: move_eye 4s linear 0s infinite alternate;
+           -o-animation: move_eye 4s linear 0s infinite alternate;
+              animation: move_eye 4s linear 0s infinite alternate;
+    }
+
+@-webkit-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+   @-moz-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+     @-o-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+        @keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+
+#hd p
+{
+    color: #0000FF;
+    font-family: sans-serif;
+    font-size:14px;
+}
+
+#ft p
+{
+    color: #0000FF;
+    font-family: sans-serif;
+    font-size:14px;
+}
+
+.mybutton1
+{
+ text-align: left;   
+    
+}
+
+.mybutton2
+{
+ text-align: left;   
+    
+}
+
+.mybutton3
+{
+ text-align: left;   
+    
+}
+
+.hidden
+{
+    display:none;   
+}
