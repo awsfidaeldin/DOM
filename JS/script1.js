@@ -1,7 +1,31 @@
+var div = document.createElement("div");
+div.classList.add("resume");
+var link = document.createElement("a");
+link.setAttribute("href","index.html");
+link.textContent ="Main Page";
+div.appendChild(link);
 var header = document.querySelector("header");
-var p = document.createElement('p');
-p.textContent = "Welcome everbody to my personal website at Denver University";
-header.appendChild(p);
+header.appendChild(div);
+
+var div = document.createElement("div");
+div.classList.add("resume");
+var link = document.createElement("a");
+link.setAttribute("href","bio.html");
+link.textContent ="Full Resume";
+div.appendChild(link);
+var header = document.querySelector("header");
+header.appendChild(div);
+
+var div = document.createElement("div");
+div.classList.add("contact");
+var link = document.createElement("a");
+link.setAttribute("href","form.html");
+link.textContent ="Contact Me";
+div.appendChild(link);
+var header = document.querySelector("header");
+header.appendChild(div);
+
+
 
 
 var para = document.createElement("p");
@@ -9,3 +33,4 @@ var node = document.createTextNode("For any enquiries, please contact me through
 para.appendChild(node);
 var element = document.getElementById("ft");
 element.appendChild(para);
+
